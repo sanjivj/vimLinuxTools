@@ -1,0 +1,26 @@
+OX_3356512079({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.pubgears.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=5&ph=ae4d7e39186b2c60549a38dee59c19f17efcd706",
+    "adunits" : [
+      {
+        "auid":"260449",
+        "chain":[
+          {
+            "is_fallback":0,
+            
+            "ad_id":"1347547",
+            "width":"300",
+            "height":"250",
+            "html":"<script  type=\"text/javascript\" src=\"http://tags.pubgears.com/wikia/ros/300x250/openx_1\"></script>\n",
+            "target":"_blank",
+            "ts":"1fHNpZD01MDI4OHxyYWlkPWE2Mjg2ZDNiLTkxNWUtNDIwZS05NmZjLWNmY2I2MTQyYWIwZXxhdWlkPTI2MDQ0OXx1cj12aXJxczdBUlVFfGFzPTMwMHgyNTB8YWlkPTEzNDc1NDd8cHViPTYzOTE5fGF1bT1ETUlELldFQnxsaWQ9NzkxMTE3fHQ9NXxyaWQ9N2Q2N2JiNTMtMWFkYy00NTEyLWI4ZmMtMjI4NmVjZjE5NmIyfG9pZD0yMzE2NDN8Ym09QlVZSU5HLk5PTkdVQVJBTlRFRUR8cD0xMjUwfHBjPVVTRHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM4NjI3NDU3Mnxwcj0xMjUwfGFkdj02MzkyMA",
+            "type":"thirdparty",
+            "ad_url":"<script  type=\"text/javascript\" src=\"http://tags.pubgears.com/wikia/ros/300x250/openx_1\"></script>\n"
+          }
+        ]
+      }
+    ]
+  }
+});

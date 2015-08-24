@@ -1,0 +1,68 @@
+
+<!-- saved from url=(0131)http://bcp.crwdcntrl.net/5/c=206/rand=541888086/pv=y/int=%23OpR%2329274%23Search%20Engine%20Referral%20%3A%20Ask/p=2962/dp=y/rt=ifr -->
+<html><object type="{0C55C096-0F1D-4F28-AAA2-85EF591126E7}" cotype="cs" id="cosymantecbfw" style="width: 0px; height: 0px; display: block;"></object><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script type="text/javascript" id="waxCS">var WAX = function () { var _arrInputs; return { getElement: function (i) { return _arrInputs[i]; }, setElement: function(i){ _arrInputs=i; } } }(); function waxGetElement(i) { return WAX.getElement(i); } function coSetPageData(t, d){ if('wax'==t) { WAX.setElement(d);} }</script></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" style="background-color:transparent; width: 100%; text-align: center;">
+<div><img src="get-user-id" width="1" height="1"><img src="cx(1)" height="1" width="1"><img src="pixel(3)" height="1" width="1"><img src="saved_resource(2)" height="1" width="1"><img alt="" src="adsct" width="1" height="1"><img src="default(1)" width="1" height="1"><img width="1" height="1" src="dap"><img src="set_partner_uid(1)" height="1" width="1"><img src="tpc=na_id" height="1" width="1"><img src="5907" width="1" height="1"><div><img src="getuid(1)" height="1" width="1"></div><img src="6a49710f4fb55606083f5d2f31c28192" height="1" width="1"><iframe id="asmp" name="asmp" width="1" height="1" frameborder="0" scrolling="no" src="saved_resource.htm"></iframe><img src="pe=y" width="1" height="1"><img src="image.sbix" width="1" height="1"><script type="text/javascript">
+function qc_results(segarray){
+var quantSegs="";
+for (var i = 0; i < segarray.segments.length; i++) {
+    quantSegs += "/genp=" + segarray.segments[i].id;
+}
+document.write('<img src="http://bcp.crwdcntrl.net/5/c=3725'+quantSegs+'" width="1" height="1"/>');
+}
+</script>
+<script type="text/javascript" src="segments.json"></script><img src="genp=T" width="1" height="1"><script id="LOTCC_368" src="cc.js"></script>
+<script id="LOTCC_796" src="cc(1).js"></script>
+<script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            var fire = null;
+            if (json.targus.sk != null && json.targus.sk != "") {
+                lot368.add("tp", "TARG");
+                lot368.add("tpid", json.targus.sk);
+                fireIt = "m";
+            }
+            if (json.targus.segment != null && json.targus.segment != "000") {
+                lot368.add("genp","tiaas-" + json.targus.segment);
+                fireIt = "b";
+            }
+            if (json.targus.age != null && json.targus.age != "") {
+                lot368.add("genp", new Date().getFullYear() - json.targus.age);
+                fireIt = "b";
+            }
+            if (json.targus.gender != null && json.targus.gender != "") {
+                lot368.add("genp", "gender - " + json.targus.gender);
+                fireIt = "b";
+            }
+            if (fireIt == "b") {
+                lot368.bcpdpv();
+            } else if (fireIt == "m") {
+                var img = new Image();
+                img.src = "http://bcp.crwdcntrl.net/map/c=368/tp=TARG/tpid=" + json.targus.sk;
+                document.body.appendChild(img);
+            }
+        }
+        if (json.Client1 != null) {
+            var fireIt = false;
+            if (json.Client1.segment != null && json.Client1.segment != "000") {
+                if (json.Client1.segment instanceof Array) {
+                    for(var i =0; i < json.Client1.segment.length; i++) {
+                        lot796.add("genp","tialnt-" + json.Client1.segment[i]);
+                        fireIt = true;
+                    }
+                } else {
+                    lot796.add("genp","tialnt-" + json.Client1.segment);
+                    fireIt = true;
+                }
+            }
+            if (fireIt) {
+                lot796.bcpdpv();
+            }
+        }
+   }
+}
+</script>
+<script src="g.json"></script><img src="saved_resource(3)" height="1" width="1"><img src="bsTd8NdE" width="1" height="1"><img src="usync" height="1" width="1"><img src="362568.gif" width="1" height="1"><iframe src="px.htm" frameborder="0" height="0" width="0" scrolling="no"></iframe></div>
+
+</body></html>

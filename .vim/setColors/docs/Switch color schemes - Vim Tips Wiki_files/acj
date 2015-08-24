@@ -1,0 +1,26 @@
+OX_3982049561({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.pubgears.com/{medium}/1.0/{rtype}?ts={txn_state}",
+    "pixels":"http://us-u.openx.net/w/1.0/pd?plm=5&ph=ae4d7e39186b2c60549a38dee59c19f17efcd706",
+    "adunits" : [
+      {
+        "auid":"260449",
+        "chain":[
+          {
+            "is_fallback":0,
+            "framed":1,
+            "ad_id":"10154",
+            "width":"300",
+            "height":"250",
+            "html":"<iframe width=\"300\" height=\"250\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" src=\"http://sjc-usadmm.dotomi.com/dmm/servlet/rtb?cg=91&pnid=15900&pid=15900&pp=0&ms=11&trid=841502084846171533&trmagic=1711711980&dtm_server_id=8767&mwp=AAABQtOu2zseDEMV6zMmE0uVc2vEAiUW_kfl-g&comId=2474&msgCampId=38454&tid=38577&icb=0&fpc=0&iblob=CI3rhuiAtufWCxDszZqwBhiqEyC2rAI6AFkAAAAAAAAYQOAEuqDrIKgFAA&cturl=http%3A%2F%2Fox-d.pubgears.com%2Fw%2F1.0%2Frc%3Fts%3D1fHJhaWQ9ZTNjNzJjZGItNzY5Mi00OTI1LWFjZDItZmYyMjljOTgwNjg2fG1wZj0xMjUwfGF1aWQ9MjYwNDQ5fG1wYz1VU0R8bXByPTI5NTh8bXBuZj0xMjUwfGFpZD0xMDE1NHxtd2NyPTM4NjkzfG1ydD0xMzg2NTMwOTIwfG13cD00NTQ5M3xtbW5mPTEyNTB8bXdjPTE0NzIzfG13Yj02MDAwfG1jPVVTRHxwY3Y9OXxvaWQ9MjgwM3xtYT1mMGU1NmYzZS1lYzE2LTRlMTgtODVkNC1jY2E2YmE3OWRjNjJ8bWFwPTQwMjB8bXdhPTEwNzk3fGFkdj05MjV8c2lkPTUwMjg4fGVsZz0xfG1vYz1VU0R8bXI9MTA2Mnx1cj1OWktMMHJVR0lkfGFzPTMwMHgyNTB8bXVpPTIxYTliYzlhLTcyNGYtNGViMi04MWY3LWE3YzgwOTI4MmNmN3xtd2JpPTI4MDl8bT0xfHB1Yj02MzkxOXxsaWQ9OTcxM3xhdW09RE1JRC5XRUJ8YWk9NDczMzhjMmMtMmUwYS05ZjMyLTc5OGQtYjhhYWJjNjMyNGI2fHQ9NHxtb3I9MTA2MnxyaWQ9ZGQ2MTRkYmMtZmE3Yy00YTg4LWJmZjEtNmJhNWM3NDM2OTUxfGNrPTF8cGM9VVNEfHA9NDAyMHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM4NjUzMDkyMHxtbWY9MTI1MHxwaT0yOTU4fG1yYz1TUlRfV09OfHByPTI5NTg%26r%3D&dvcid=&dtmid=130301435428900048&magic=1513918267&utype=0&rurl=http%3A%2F%2Fads.dotomi.com%2Fads.php%3Fdres%3Drtb%26pnid%3D15900%26pid%3D15900%26pp%3D0%26cg%3D91%26ms%3D11%26tz%3D0&cb_=IjcP6BP6ti\"></iframe>",
+            "target":"_blank",
+            "ts":"1fHJhaWQ9ZTNjNzJjZGItNzY5Mi00OTI1LWFjZDItZmYyMjljOTgwNjg2fG1wZj0xMjUwfGF1aWQ9MjYwNDQ5fG1wYz1VU0R8bXByPTI5NTh8bXBuZj0xMjUwfGFpZD0xMDE1NHxtd2NyPTM4NjkzfG1ydD0xMzg2NTMwOTIwfG13cD00NTQ5M3xtbW5mPTEyNTB8bXdjPTE0NzIzfG13Yj02MDAwfG1jPVVTRHxwY3Y9OXxvaWQ9MjgwM3xtYT1mMGU1NmYzZS1lYzE2LTRlMTgtODVkNC1jY2E2YmE3OWRjNjJ8bWFwPTQwMjB8bXdhPTEwNzk3fGFkdj05MjV8c2lkPTUwMjg4fGVsZz0xfG1vYz1VU0R8bXI9MTA2Mnx1cj1OWktMMHJVR0lkfGFzPTMwMHgyNTB8bXVpPTIxYTliYzlhLTcyNGYtNGViMi04MWY3LWE3YzgwOTI4MmNmN3xtd2JpPTI4MDl8bT0xfHB1Yj02MzkxOXxsaWQ9OTcxM3xhdW09RE1JRC5XRUJ8YWk9NDczMzhjMmMtMmUwYS05ZjMyLTc5OGQtYjhhYWJjNjMyNGI2fHQ9NHxtb3I9MTA2MnxyaWQ9ZGQ2MTRkYmMtZmE3Yy00YTg4LWJmZjEtNmJhNWM3NDM2OTUxfGNrPTF8cGM9VVNEfHA9NDAyMHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM4NjUzMDkyMHxtbWY9MTI1MHxwaT0yOTU4fG1yYz1TUlRfV09OfHByPTI5NTg",
+            "type":"html",
+            "ad_url":"<iframe width=\"300\" height=\"250\" allowtransparency=\"true\" frameborder=\"0\" scrolling=\"no\" src=\"http://sjc-usadmm.dotomi.com/dmm/servlet/rtb?cg=91&pnid=15900&pid=15900&pp=0&ms=11&trid=841502084846171533&trmagic=1711711980&dtm_server_id=8767&mwp=AAABQtOu2zseDEMV6zMmE0uVc2vEAiUW_kfl-g&comId=2474&msgCampId=38454&tid=38577&icb=0&fpc=0&iblob=CI3rhuiAtufWCxDszZqwBhiqEyC2rAI6AFkAAAAAAAAYQOAEuqDrIKgFAA&cturl=http%3A%2F%2Fox-d.pubgears.com%2Fw%2F1.0%2Frc%3Fts%3D1fHJhaWQ9ZTNjNzJjZGItNzY5Mi00OTI1LWFjZDItZmYyMjljOTgwNjg2fG1wZj0xMjUwfGF1aWQ9MjYwNDQ5fG1wYz1VU0R8bXByPTI5NTh8bXBuZj0xMjUwfGFpZD0xMDE1NHxtd2NyPTM4NjkzfG1ydD0xMzg2NTMwOTIwfG13cD00NTQ5M3xtbW5mPTEyNTB8bXdjPTE0NzIzfG13Yj02MDAwfG1jPVVTRHxwY3Y9OXxvaWQ9MjgwM3xtYT1mMGU1NmYzZS1lYzE2LTRlMTgtODVkNC1jY2E2YmE3OWRjNjJ8bWFwPTQwMjB8bXdhPTEwNzk3fGFkdj05MjV8c2lkPTUwMjg4fGVsZz0xfG1vYz1VU0R8bXI9MTA2Mnx1cj1OWktMMHJVR0lkfGFzPTMwMHgyNTB8bXVpPTIxYTliYzlhLTcyNGYtNGViMi04MWY3LWE3YzgwOTI4MmNmN3xtd2JpPTI4MDl8bT0xfHB1Yj02MzkxOXxsaWQ9OTcxM3xhdW09RE1JRC5XRUJ8YWk9NDczMzhjMmMtMmUwYS05ZjMyLTc5OGQtYjhhYWJjNjMyNGI2fHQ9NHxtb3I9MTA2MnxyaWQ9ZGQ2MTRkYmMtZmE3Yy00YTg4LWJmZjEtNmJhNWM3NDM2OTUxfGNrPTF8cGM9VVNEfHA9NDAyMHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM4NjUzMDkyMHxtbWY9MTI1MHxwaT0yOTU4fG1yYz1TUlRfV09OfHByPTI5NTg%26r%3D&dvcid=&dtmid=130301435428900048&magic=1513918267&utype=0&rurl=http%3A%2F%2Fads.dotomi.com%2Fads.php%3Fdres%3Drtb%26pnid%3D15900%26pid%3D15900%26pp%3D0%26cg%3D91%26ms%3D11%26tz%3D0&cb_=IjcP6BP6ti\"></iframe>"
+          }
+        ]
+      }
+    ]
+  }
+});

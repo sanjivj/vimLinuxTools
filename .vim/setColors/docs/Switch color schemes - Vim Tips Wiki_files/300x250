@@ -1,0 +1,4 @@
+
+if (!window.OX_ads) { OX_ads = []; }OX_ads.push({ "auid" : "260449" });
+document.write('<scr'+'ipt src="http://ox-d.pubgears.com/w/1.0/jstag"></scr'+'ipt>');
+// server: T6 - east site: wikia channel: ros size: 300x250 network: None tag_hash: wikia_ros_300x250_openx_firstlook via: memcache
