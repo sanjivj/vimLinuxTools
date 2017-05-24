@@ -28,6 +28,8 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+nmap <F8> :TagbarToggle<CR>
+
 let g:miniBufExplMapWindowNavVim = 1
 let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
@@ -47,8 +49,10 @@ map gb :Gblame<CR>
 map gc :Gcommit<CR>
 
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='base16_summerfruit'
 
-set guifont=Lucida_Console:h12
+let g:Powerline_symbols = 'fancy'
+set guifont=Lucida_Console:h16
 set nobackup
 set noswapfile
 set expandtab
@@ -58,7 +62,6 @@ set softtabstop=4
 set shiftwidth=4
 set autoindent
 :syntax on
-
 filetype plugin on
 
 let mapleader=","
@@ -70,6 +73,8 @@ let g:SuperTabDefaultCompletionType = "context"
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+set statusline+=%{StatuslineGit()}
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
@@ -103,7 +108,7 @@ silent! call repeat#set("\<Plug><leader>cu", v:count)
 :abbr accross across
 :abbr Lunix Linux
 :abbr consloe console
-colorscheme zenburn
+colorscheme blue
 set laststatus=2
 call pathogen#infect()
 let g:pymode_lint_write = 0
